@@ -1,0 +1,14 @@
+.interlocutor-section {
+    padding: 10rem 0;
+}
+
+.interlocutor-icon {
+    font-size: 3rem;
+}
+
+.interlocutor-section hr {
+    border-color: #2580c6;
+    border-width: 0.25rem;
+    width: 5rem;
+}
+
