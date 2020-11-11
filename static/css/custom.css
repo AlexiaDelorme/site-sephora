@@ -1,8 +1,11 @@
-.interlocutor-section {
-    padding: 10rem 0;
+.interlocutor-section,
+.avocat-section,
+.spe-section {
+    padding: 5rem 0;
 }
 
-.interlocutor-icon {
+.interlocutor-icon,
+.spe-icon {
     font-size: 3rem;
 }
 
