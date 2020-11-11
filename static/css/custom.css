@@ -7,11 +7,21 @@
 .interlocutor-icon,
 .spe-icon {
     font-size: 3rem;
+    color: #212529 !important;
 }
 
-.interlocutor-section hr {
-    border-color: #2580c6;
+.interlocutor-section hr,
+.spe-section hr {
+    border-color: #F89A1F;
     border-width: 0.25rem;
     width: 5rem;
+}
+
+.contact-section .card {
+    border: none;
+}
+
+.contact-section .card hr {
+    border-color: #F89A1F;
 }
 
