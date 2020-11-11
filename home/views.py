@@ -1,8 +1,19 @@
 from django.shortcuts import render
+from django.conf import settings
+from .forms import ContactForm
 
 
 def home_view(request):
     """
     View to return home page
     """
-    return render(request, "home.html")
+    form = ContactForm()
+
+    # emailjs_user = settings.EMAILJS_USER
+
+    context = {
+        "page_title": "Contact Us",
+        "form": form,
+        # "emailjs_user": # emailjs_user
+    }
+    return render(request, "home.html", context)
