@@ -1,6 +1,7 @@
 .interlocutor-section,
 .avocat-section,
-.spe-section {
+.spe-section,
+.actu-section{
     padding: 5rem 0;
 }
 
@@ -11,7 +12,8 @@
 }
 
 .interlocutor-section hr,
-.spe-section hr {
+.spe-section hr,
+.actu-section hr {
     border-color: #F89A1F;
     border-width: 0.25rem;
     width: 5rem;
