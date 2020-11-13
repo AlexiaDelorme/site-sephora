@@ -12,7 +12,7 @@ def home_view(request):
     # emailjs_user = settings.EMAILJS_USER
 
     context = {
-        "page_title": "Contact Us",
+        "page_title": "Home",
         "form": form,
         # "emailjs_user": # emailjs_user
     }
