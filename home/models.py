@@ -3,7 +3,7 @@ from django.db import models
 
 class Specialty(models.Model):
     name = models.CharField(max_length=100)
-    icon = models.CharField(max_length=50)
+    icon = models.CharField(max_length=150)
 
 
 class ListForSpecialty(models.Model):
