@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block header %}
+<!-- Header -->
+<header class="specialty-head">
+	<div class="container d-flex align-items-center">
+		<div class="mx-auto text-center">
+            <h1 class="text-light mx-auto my-0">{{ specialty.name }}</h1>
+        </div>
+	</div>
+</header>
+{% endblock %}
+
+{% block content %}
+
+<!-- Sub-specialties -->
+<section class="mt-3 mb-5">
+	<div class="container">
+		<div class="row">
+            {% for sub_specialty in sub_specialties %}
+                {{sub_specialty.name}}
+            {% endfor %}
+		</div>
+	</div>
+</section>
+
+{% endblock %}
