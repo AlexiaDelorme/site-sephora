@@ -74,42 +74,17 @@
                 <div class="col-12">
                     <h2 class="mb-5">Spécialités</h2>
                 </div>
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-briefcase spe-icon text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Droit des affaires</h4>
-                            <hr class="my-4" />
+                {% for specialty in specialties %}
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="{{ specialty.icon }} spe-icon text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">{{ specialty.name }}</h4>
+                                <hr class="my-4" />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-procedures spe-icon text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Droit du dommage corporel</h4>
-                            <hr class="my-4" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-building spe-icon text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Droit immobilier</h4>
-                            <hr class="my-4" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-balance-scale-right spe-icon text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Droit pénal</h4>
-                            <hr class="my-4" />
-                        </div>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </section>
