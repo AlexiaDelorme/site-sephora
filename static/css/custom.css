@@ -1,29 +1,63 @@
 .interlocutor-section,
 .avocat-section,
 .spe-section,
-.actu-section{
-    padding: 5rem 0;
+.actu-section,
+.specialty-section {
+  padding: 5rem 0;
 }
 
 .interlocutor-icon,
 .spe-icon {
-    font-size: 3rem;
-    color: #212529 !important;
+  font-size: 3rem;
+  color: #212529 !important;
 }
 
 .interlocutor-section hr,
 .spe-section hr,
 .actu-section hr {
-    border-color: #F89A1F;
-    border-width: 0.25rem;
-    width: 5rem;
+  border-color: #f89a1f;
+  border-width: 0.25rem;
+  width: 5rem;
 }
 
 .contact-section .card {
-    border: none;
+  border: none;
 }
 
 .contact-section .card hr {
-    border-color: #F89A1F;
+  border-color: #f89a1f;
 }
 
+.specialty-head {
+  padding: 10rem 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(22, 22, 22, 0.3) 0%,
+      rgba(22, 22, 22, 0.7) 75%,
+      #161616 100%
+    ),
+    url("../img/bg-spe.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.specialty-head h1 {
+  font-family: "Varela Round";
+  letter-spacing: 0.6rem;
+  color: #f89a1f;
+  text-transform: uppercase;
+}
+
+.contact-section .card {
+  color: black;
+  opacity: 0.8;
+  transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+}
+
+.contact-section .card:hover {
+  opacity: 1;
+}
