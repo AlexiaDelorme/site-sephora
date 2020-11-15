@@ -14,7 +14,8 @@
 
 .interlocutor-section hr,
 .spe-section hr,
-.actu-section hr {
+.actu-section hr,
+.signup-section hr {
   border-color: #f89a1f;
   border-width: 0.25rem;
   width: 5rem;
