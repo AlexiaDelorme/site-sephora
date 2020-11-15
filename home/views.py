@@ -15,6 +15,7 @@ def home_view(request):
 
     context = {
         "page_title": "Home",
+        "home_page": "home",
         "form": form,
         "specialties": specialties
         # "emailjs_user": # emailjs_user
