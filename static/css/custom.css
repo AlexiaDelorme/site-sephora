@@ -1,4 +1,3 @@
-
 .masthead-parent:hover .masthead,
 .masthead-parent:focus .masthead {
   transform: scale(1.1);
@@ -9,6 +8,15 @@
 .masthead-parent .masthead {
   transform: scale(1);
   transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+span.avocat-span {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  background: linear-gradient(rgba(37, 128, 198, 1), rgba(37, 128, 198, 0.5));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .interlocutor-section,
@@ -83,5 +91,3 @@
 .contact-section .card:hover {
   opacity: 1;
 }
-
-
