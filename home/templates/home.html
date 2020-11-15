@@ -3,189 +3,194 @@
 {% load crispy_forms_tags %}
 
 {% block header %}
-<!-- Masthead-->
-<header class="masthead-parent">
-    <div class="masthead">
-        <div class="container d-flex h-100 align-items-center">
-            <div class="mx-auto text-center">
-                <h1 class="mx-auto my-0">Sephora Perez</h1>
-                <h2 class="mx-auto mt-2 mb-5">
-                    Avocat
-                </h2>
+    <!-- Masthead-->
+    <header class="masthead-parent">
+        <div class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0">Sephora Perez <span class="avocat-span">Avocat</span> </h1>
+                    <h2 class="mx-auto mt-2 mb-5">
+                        <span class="txt-rotate text-uppercase font-italic" data-period="2000" data-rotate='[ "Confiance", "Réactivité", "Engagement", "Transparence", "Audace" ]'></span>
+                    </h2>
+                    
+                </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 {% endblock %}
 
 {% block content %}
 
-<!-- Interlocuteurs -->
-<section class="project-section interlocutor-section" id="interlocutor">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-12">
-                <h2 class="mb-3">Vous êtes...</h2>
-                <hr class="mb-5">
-            </div>
-            <div class="col-12 col-md-6 interlocutor-icon mb-5">
-                <i class="fas fa-briefcase"></i>
-            </div>
-            <div class="col-12 col-md-6 interlocutor-icon mb-5">
-                <i class="fas fa-user-md"></i>
-            </div>
-            <div class="col-12 col-md-6 interlocutor-icon mb-5">
-                <i class="fas fa-home"></i>
-            </div>
-            <div class="col-12 col-md-6 interlocutor-icon mb-5">
-                <i class="fas fa-book"></i>
+    <!-- Interlocuteurs -->
+    <section class="project-section interlocutor-section" id="interlocutor">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="mb-3">Vous êtes...</h2>
+                    <hr class="mb-5">
+                </div>
+                <div class="col-12 col-md-6 interlocutor-icon mb-5">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="col-12 col-md-6 interlocutor-icon mb-5">
+                    <i class="fas fa-user-md"></i>
+                </div>
+                <div class="col-12 col-md-6 interlocutor-icon mb-5">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="col-12 col-md-6 interlocutor-icon mb-5">
+                    <i class="fas fa-book"></i>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Avocat -->
-<section class="projects-section avocat-section bg-light" id="avocat">
-    <div class="container">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-            <div class="col-lg-6"><img class="img-fluid" src="{% static 'img/sephora.png' %}" alt="Sephora Perez" /></div>
-            <div class="col-lg-6">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-left">
-                            <h4 class="text-white mb-4">Sephora PEREZ</h4>
-                            <p class="mb-0 text-white-50">
-                                Formée à l’Université Paris 1 Panthéon Sorbonne, Maître Perez dispose d’un double diplôme en droit et en économie – gestion.<br><br>
-                                Forte d’une expérience tant au sein de juridictions qu’au sein de prestigieux cabinets anglo-saxon, Maître Perez intervient aussi bien en conseil qu’en contentieux.<br><br>
-                                Maître Perez est également membre de l’Union des Jeunes Avocats, association qui accompagne les avocats dans leur insertion professionnelle.<br><br>
-                                Dans la gestion de ses dossiers, elle se consacre avec sérieux et passion aux intérêts de ses clients afin d’obtenir le meilleur résultat.
-                            </p>
-                            <hr class="d-none d-lg-block mb-0 ml-0" />
+    <!-- Avocat -->
+    <section class="projects-section avocat-section bg-light" id="avocat">
+        <div class="container">
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6"><img class="img-fluid" src="{% static 'img/sephora.png' %}" alt="Sephora Perez" /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white mb-4">Sephora PEREZ</h4>
+                                <p class="mb-0 text-white-50">
+                                    Formée à l’Université Paris 1 Panthéon Sorbonne, Maître Perez dispose d’un double diplôme en droit et en économie – gestion.<br><br>
+                                    Forte d’une expérience tant au sein de juridictions qu’au sein de prestigieux cabinets anglo-saxon, Maître Perez intervient aussi bien en conseil qu’en contentieux.<br><br>
+                                    Maître Perez est également membre de l’Union des Jeunes Avocats, association qui accompagne les avocats dans leur insertion professionnelle.<br><br>
+                                    Dans la gestion de ses dossiers, elle se consacre avec sérieux et passion aux intérêts de ses clients afin d’obtenir le meilleur résultat.
+                                </p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Spécialités -->
-<section class="contact-section spe-section" id="spe">
-    <div class="container">
-        <div class="row mb-5 text-center">
-            <div class="col-12">
-                <h2 class="mb-5">Spécialités</h2>
-            </div>
-            {% for specialty in specialties %}
-                <div class="card-parent col-md-3 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <a href="{% url 'specialty_detail' specialty.id %}">
-                            <div class="card-body text-center">
-                                <i class="{{ specialty.icon }} spe-icon text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">{{ specialty.name }}</h4>
-                                <hr class="my-4" />
-                            </div>
-                        </a>
-                    </div>
+    <!-- Spécialités -->
+    <section class="contact-section spe-section" id="spe">
+        <div class="container">
+            <div class="row mb-5 text-center">
+                <div class="col-12">
+                    <h2 class="mb-5">Spécialités</h2>
                 </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<!-- Actualités -->
-<section class="actu-section bg-light" id="actu">
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-12 text-center">
-                <h2 class="mb-3">Actualités</h2>
-                <hr class="mb-5">
-            </div>
-            <!-- Cards -->
-            <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
-                <div class="card">
-                    <div class="card-header">
-                        Presse
-                        <span class="float-right">le 27/08/2020</span>
+                {% for specialty in specialties %}
+                    <div class="card-parent col-md-3 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <a href="{% url 'specialty_detail' specialty.id %}">
+                                <div class="card-body text-center">
+                                    <i class="{{ specialty.icon }} spe-icon text-primary mb-2"></i>
+                                    <h4 class="text-uppercase m-0">{{ specialty.name }}</h4>
+                                    <hr class="my-4" />
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">TITRE</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a laoreet justo.
-                            Nam lacinia pharetra molestie. Donec cursus massa ut sem venenatis ornare.
-                            Cras posuere metus ipsum, ultrices pharetra elit lobortis ut.
-                            Proin posuere, turpis vitae facilisis cursus, eros velit maximus eros, sed euismod sapien est in justo.
-                        </p>
-                        <a href="#" class="btn btn-primary float-right">Lire la suite</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
-                <div class="card">
-                    <div class="card-header">
-                        Presse
-                        <span class="float-right">le 27/08/2020</span>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">TITRE</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a laoreet justo.
-                            Nam lacinia pharetra molestie. Donec cursus massa ut sem venenatis ornare.
-                            Cras posuere metus ipsum, ultrices pharetra elit lobortis ut.
-                            Proin posuere, turpis vitae facilisis cursus, eros velit maximus eros, sed euismod sapien est in justo.
-                        </p>
-                        <a href="#" class="btn btn-primary float-right">Lire la suite</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
-                <div class="card">
-                    <div class="card-header">
-                        Presse
-                        <span class="float-right">le 27/08/2020</span>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">TITRE</h5>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a laoreet justo.
-                            Nam lacinia pharetra molestie. Donec cursus massa ut sem venenatis ornare.
-                            Cras posuere metus ipsum, ultrices pharetra elit lobortis ut.
-                            Proin posuere, turpis vitae facilisis cursus, eros velit maximus eros, sed euismod sapien est in justo.
-                        </p>
-                        <a href="#" class="btn btn-primary float-right">Lire la suite</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Button -->
-            <div class="col-12 mt-5 text-center">
-                <a href="#" class="btn btn-light">Voir plus de publications</a>
+                {% endfor %}
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Contact -->
-<section class="signup-section" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-lg-8 mx-auto">
+    <!-- Actualités -->
+    <section class="actu-section bg-light" id="actu">
+        <div class="container">
+            <div class="row mb-5">
                 <div class="col-12 text-center">
-                    <h2 class="mb-3">Contact</h2>
+                    <h2 class="mb-3">Actualités</h2>
                     <hr class="mb-5">
                 </div>
-                <!-- Contact Form -->
-                <form id="contact-form" method="POST">
-                    {% csrf_token %}
-                    <fieldset class="form-group">
-                        {{ form|crispy }}
-                    </fieldset>
-                    <div class="form-group col-12 text-right">
-                        <button type="submit" class="btn btn-primary btn-subscribe">Envoyer</button>
+                <!-- Cards -->
+                <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
+                    <div class="card">
+                        <div class="card-header">
+                            Presse
+                            <span class="float-right">le 27/08/2020</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">TITRE</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a laoreet justo.
+                                Nam lacinia pharetra molestie. Donec cursus massa ut sem venenatis ornare.
+                                Cras posuere metus ipsum, ultrices pharetra elit lobortis ut.
+                                Proin posuere, turpis vitae facilisis cursus, eros velit maximus eros, sed euismod sapien est in justo.
+                            </p>
+                            <a href="#" class="btn btn-primary float-right">Lire la suite</a>
+                        </div>
                     </div>
-                </form>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
+                    <div class="card">
+                        <div class="card-header">
+                            Presse
+                            <span class="float-right">le 27/08/2020</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">TITRE</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a laoreet justo.
+                                Nam lacinia pharetra molestie. Donec cursus massa ut sem venenatis ornare.
+                                Cras posuere metus ipsum, ultrices pharetra elit lobortis ut.
+                                Proin posuere, turpis vitae facilisis cursus, eros velit maximus eros, sed euismod sapien est in justo.
+                            </p>
+                            <a href="#" class="btn btn-primary float-right">Lire la suite</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mt-3 mb-3">
+                    <div class="card">
+                        <div class="card-header">
+                            Presse
+                            <span class="float-right">le 27/08/2020</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">TITRE</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a laoreet justo.
+                                Nam lacinia pharetra molestie. Donec cursus massa ut sem venenatis ornare.
+                                Cras posuere metus ipsum, ultrices pharetra elit lobortis ut.
+                                Proin posuere, turpis vitae facilisis cursus, eros velit maximus eros, sed euismod sapien est in justo.
+                            </p>
+                            <a href="#" class="btn btn-primary float-right">Lire la suite</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Button -->
+                <div class="col-12 mt-5 text-center">
+                    <a href="#" class="btn btn-light">Voir plus de publications</a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
+    <!-- Contact -->
+    <section class="signup-section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-8 mx-auto">
+                    <div class="col-12 text-center">
+                        <h2 class="mb-3">Contact</h2>
+                        <hr class="mb-5">
+                    </div>
+                    <!-- Contact Form -->
+                    <form id="contact-form" method="POST">
+                        {% csrf_token %}
+                        <fieldset class="form-group">
+                            {{ form|crispy }}
+                        </fieldset>
+                        <div class="form-group col-12 text-right">
+                            <button type="submit" class="btn btn-primary btn-subscribe">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'js/typing-carousel.js' %}"></script>
 {% endblock %}
