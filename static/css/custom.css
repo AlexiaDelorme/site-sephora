@@ -1,3 +1,16 @@
+
+.masthead-parent:hover .masthead,
+.masthead-parent:focus .masthead {
+  transform: scale(1.1);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.masthead-parent .masthead,
+.masthead-parent .masthead {
+  transform: scale(1);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
 .interlocutor-section,
 .avocat-section,
 .spe-section,
@@ -51,6 +64,14 @@
   text-transform: uppercase;
 }
 
+.card-parent:hover .card,
+.card-parent:focus .card {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+}
+
 .contact-section .card {
   color: black;
   opacity: 0.8;
@@ -62,3 +83,5 @@
 .contact-section .card:hover {
   opacity: 1;
 }
+
+
