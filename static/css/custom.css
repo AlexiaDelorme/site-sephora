@@ -87,8 +87,8 @@ span.avocat-span {
 }
 
 .contact-section .card {
-  color:  #18243e;
-  opacity: 0.8;
+  opacity: 0.85;
+  border: 0.25rem solid #f89a1f;
   transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
