@@ -37,9 +37,16 @@ span.avocat-span {
 .spe-section hr,
 .actu-section hr,
 .signup-section hr {
-  border-color: #f89a1f;
   border-width: 0.25rem;
   width: 5rem;
+}
+
+.hr-yellow {
+  border-color: #f89a1f;
+}
+
+.hr-blue {
+  border-color: #2580c6;
 }
 
 .contact-section .card {
@@ -66,9 +73,8 @@ span.avocat-span {
 }
 
 .specialty-head h1 {
-  font-family: "Varela Round";
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 0.6rem;
-  color: #f89a1f;
   text-transform: uppercase;
 }
 
