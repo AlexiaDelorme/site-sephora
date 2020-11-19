@@ -30,7 +30,7 @@ span.avocat-span {
 .interlocutor-icon,
 .spe-icon {
   font-size: 3rem;
-  color: #212529 !important;
+  color: #18243e !important;
 }
 
 .interlocutor-section hr,
@@ -81,7 +81,7 @@ span.avocat-span {
 }
 
 .contact-section .card {
-  color: black;
+  color:  #18243e;
   opacity: 0.8;
   transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
