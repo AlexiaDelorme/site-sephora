@@ -23,7 +23,8 @@ span.avocat-span {
 .avocat-section,
 .spe-section,
 .actu-section,
-.specialty-section {
+.specialty-section,
+.projects-section {
   padding: 5rem 0;
 }
 
@@ -36,7 +37,7 @@ span.avocat-span {
 .interlocutor-section hr,
 .spe-section hr,
 .actu-section hr,
-.signup-section hr {
+.projects-section hr {
   border-width: 0.25rem;
   width: 5rem;
 }
@@ -96,4 +97,9 @@ span.avocat-span {
 
 .contact-section .card:hover {
   opacity: 1;
+}
+
+.contact-picture {
+  object-fit: cover;
+  height: 750px;
 }
