@@ -11,7 +11,16 @@ class SpecialtyAdmin(admin.ModelAdmin):
     ordering = ('id',)
 
 
-class ListForSpecialtyAdmin(admin.ModelAdmin):
+class SubSpecialtyAdmin(admin.ModelAdmin):
+    list_display = (
+        'id',
+        'name'
+    )
+
+    ordering = ('id',)
+
+
+class ListForSubSpecialtyAdmin(admin.ModelAdmin):
     list_display = (
         'id',
         'name'
@@ -21,4 +30,5 @@ class ListForSpecialtyAdmin(admin.ModelAdmin):
 
 
 admin.site.register(models.Specialty, SpecialtyAdmin)
-admin.site.register(models.ListForSpecialty, ListForSpecialtyAdmin)
+admin.site.register(models.SubSpecialty, SubSpecialtyAdmin)
+admin.site.register(models.ListForSubSpecialty, ListForSubSpecialtyAdmin)

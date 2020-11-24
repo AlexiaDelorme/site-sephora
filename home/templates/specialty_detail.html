@@ -22,13 +22,25 @@
   <div class="container">
     <div class="row justify-content-center">
       {% for sub_specialty in sub_specialties %}
-        <div class="col-md-4 mb-5">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <h4 class="text-uppercase m-0">{{sub_specialty.name}}</h4>
+        {% if specialty.id == 1 %}
+          <div class="card-parent col-md-4 mb-5">
+            <div class="card py-4 h-100">
+                <a href="{% url 'sub_specialty_detail' sub_specialty.id %}">
+                    <div class="card-body text-center">
+                      <h4 class="text-uppercase m-0">{{sub_specialty.name}}</h4>
+                    </div>
+                </a>
             </div>
           </div>
-        </div>
+        {% else %}
+          <div class="col-md-4 mb-5">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <h4 class="text-uppercase m-0">{{sub_specialty.name}}</h4>
+              </div>
+            </div>
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
