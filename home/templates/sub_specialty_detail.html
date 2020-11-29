@@ -1,0 +1,36 @@
+{% extends 'base.html' %} 
+{% load static %} 
+
+{% block header %}
+<!-- Header -->
+<header class="specialty-head">
+  <div class="container d-flex align-items-center">
+    <div class="mx-auto text-center">
+      <h1 class="text-light text-upper mx-auto my-0">
+        {{ sub_specialty.name }}
+      </h1>
+    </div>
+  </div>
+</header>
+{% endblock %}
+
+{% block content %}
+
+<!-- Sub-specialties -->
+<section class="contact-section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      {% for list in sub_specialty_list %}
+        <div class="col-md-4 mb-5">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <h4 class="text-uppercase m-0">{{list.name}}</h4>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}

@@ -6,11 +6,11 @@ class Specialty(models.Model):
     icon = models.CharField(max_length=150)
 
 
-class ListForSpecialty(models.Model):
+class SubSpecialty(models.Model):
     name = models.CharField(max_length=100)
     related_specialty = models.ForeignKey(Specialty, on_delete=models.CASCADE)
 
 
-
-
-
+class ListForSubSpecialty(models.Model):
+    name = models.CharField(max_length=100)
+    related_sub_specialty = models.ForeignKey(SubSpecialty, on_delete=models.CASCADE)

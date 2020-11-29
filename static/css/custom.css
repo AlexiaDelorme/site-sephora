@@ -13,6 +13,9 @@
 .mx-auto.text-center {
   z-index: 100;
 }
+.masthead-text {
+  margin-top: 88px;
+}
 
 span.avocat-span {
   font-size: 1.8rem;
@@ -93,7 +96,7 @@ span.avocat-span {
 
 .contact-section .card {
   opacity: 0.85;
-  border: 0.25rem solid #f89a1f;
+  border: 0.25rem solid #2580c6;
   transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
