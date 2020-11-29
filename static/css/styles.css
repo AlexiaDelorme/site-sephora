@@ -4641,11 +4641,11 @@ input[type="button"].btn-block {
 
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus {
-  color:  #2580c6;
+  color: #2580c6;
 }
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-  color:  #2580c6;
+  color: #2580c6;
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(24, 36, 62, 0.3);
@@ -10609,24 +10609,25 @@ body {
   border: 0;
 }
 
-.masthead {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: linear-gradient(
-      to bottom,
-      rgb(4 36 60 / 50%) 0%,
-      rgb(1 19 45 / 90%) 75%,
-      #000000 100%
-    ),
-    url("../img/paris.jpg");
+#masthead {
+  background-color: #000;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 15rem 0;
+  background-image: url("../img/paris.jpg");
+  transition: 3s;
+  box-shadow: inset 0 0 0 2000px rgb(1 19 45 / 60%);
 }
+
+#masthead * {
+  transition: none;
+}
+
 .masthead h1 {
   font-family: "Raleway", sans-serif;
   font-size: 2.5rem;
