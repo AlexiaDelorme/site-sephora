@@ -10608,26 +10608,6 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
-#masthead {
-  background-color: #000;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  position: relative;
-  width: 100%;
-  height: auto;
-  padding: 15rem 0;
-  background-image: url("../img/paris.jpg");
-  transition: 3s;
-  box-shadow: inset 0 0 0 2000px rgb(1 19 45 / 60%);
-}
-
-#masthead * {
-  transition: none;
-}
-
 .masthead h1 {
   font-family: "Raleway", sans-serif;
   font-size: 2.5rem;
