@@ -3,11 +3,11 @@
 $(function () {
   var mastHead = $("#masthead");
   var backgrounds = [
-    'url("/static/img/paris.jpg")',
-    'url("/static/img/bg-2.jpg")',
-    'url("/static/img/bg-3.jpg")',
-    'url("/static/img/bg-4.jpg")',
-    'url("/static/img/bg-5.jpg")',
+    'url("https://site-sephora.s3.eu-west-3.amazonaws.com/img/paris.jpg")',
+    'url("https://site-sephora.s3.eu-west-3.amazonaws.com/img/bg-2.jpg")',
+    'url("https://site-sephora.s3.eu-west-3.amazonaws.com/img/bg-3.jpg")',
+    'url("https://site-sephora.s3.eu-west-3.amazonaws.com/img/bg-4.jpg")',
+    'url("https://site-sephora.s3.eu-west-3.amazonaws.com/img/bg-5.jpg")',
   ];
   var current = 0;
 
