@@ -1,0 +1,122 @@
+.masthead-parent:hover .masthead,
+.masthead-parent:focus .masthead {
+  transform: scale(1.1);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.masthead-parent .masthead,
+.masthead-parent .masthead {
+  transform: scale(1);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.masthead-text {
+  margin-top: 88px;
+}
+
+#masthead {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: relative;
+  height: 100vh;
+  padding: 15rem 0;
+  background-image: url("../img/paris.jpg");
+  transition: 3s;
+  box-shadow: inset 0 0 0 2000px rgb(1 19 45 / 70%);
+}
+
+span.avocat-span {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  background: linear-gradient(rgba(37, 128, 198, 1), rgba(37, 128, 198, 0.5));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.interlocutor-section,
+.avocat-section,
+.spe-section,
+.actu-section,
+.specialty-section,
+.projects-section {
+  padding: 5rem 0;
+}
+
+.interlocutor-icon,
+.spe-icon {
+  font-size: 3rem;
+  color: #18243e !important;
+}
+
+.interlocutor-section hr,
+.spe-section hr,
+.actu-section hr,
+.projects-section hr {
+  border-width: 0.25rem;
+  width: 5rem;
+}
+
+.hr-yellow {
+  border-color: #f89a1f;
+}
+
+.hr-blue {
+  border-color: #2580c6;
+}
+
+.contact-section .card {
+  border: none;
+}
+
+.contact-section .card hr {
+  border-color: #f89a1f;
+}
+
+.specialty-head {
+  padding: 10rem 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(22, 22, 22, 0.3) 0%,
+      rgba(22, 22, 22, 0.7) 75%,
+      #161616 100%
+    ),
+    url("../img/bg-spe.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.specialty-head h1 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+}
+
+.card-parent:hover .card,
+.card-parent:focus .card {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+}
+
+.contact-section .card {
+  opacity: 0.85;
+  border: 0.25rem solid #2580c6;
+  transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+}
+
+.contact-section .card:hover {
+  opacity: 1;
+}
+
+.contact-picture {
+  object-fit: cover;
+  height: 850px;
+}

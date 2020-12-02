@@ -155,7 +155,7 @@ if 'USE_AWS' in os.environ:
     AWS_DEFAULT_ACL = None
 
     # Static and media files
-    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
     STATICFILES_LOCATION = 'static'
     #DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
     #MEDIAFILES_LOCATION = 'media'
