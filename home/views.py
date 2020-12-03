@@ -48,7 +48,8 @@ def sub_specialty_detail_view(request, pk):
 
     # Return the list of all sub-specialty matching the specialty id
     sub_specialty = get_object_or_404(SubSpecialty, pk=pk)
-    sub_specialty_list = ListForSubSpecialty.objects.all().filter(related_sub_specialty=sub_specialty)
+    sub_specialty_list = ListForSubSpecialty.objects.all().filter(
+        related_sub_specialty=sub_specialty)
 
     context = {
         "page_title": sub_specialty.name,
@@ -57,3 +58,15 @@ def sub_specialty_detail_view(request, pk):
     }
 
     return render(request, "sub_specialty_detail.html", context)
+
+
+def honoraires_view(request):
+    """
+    View to return honoraires page
+    """
+
+    context = {
+        "page_title": "Honoraires",
+    }
+
+    return render(request, "honoraires.html", context)

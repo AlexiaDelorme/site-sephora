@@ -1,0 +1,47 @@
+{% extends 'base.html' %} 
+{% load static %} 
+
+{% block header %}
+<!-- Header -->
+<header class="honoraires-head">
+  <div class="container d-flex align-items-center">
+    <div class="mx-auto text-center">
+      <h1 class="text-light text-upper mx-auto my-0">Honoraires</h1>
+    </div>
+  </div>
+</header>
+{% endblock %}
+
+{% block content %}
+
+<!-- Sub-specialties -->
+<section class="honoraires-section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-7 text-justify">
+            <p>
+                L'honoraire de l'avocat doit toujours faire l'objet d'une concertation préalable pour clarifier d'emblée cette question importante.<br><br>
+                La convention d'honoraires est un contrat obligatoire librement négociable par discussion entre le client et son avocat.<br><br>
+                Les critères de fixation de l’honoraire de l’avocat sont notamment : la difficulté de l’affaire, le temps consacré au dossier, la spécialisation de l’avocat, les frais qu’il expose.<br><br>
+                Par ailleurs, les adversaires procéduraux du client (assureur, fonds de garantie) recrutent des avocats de grande compétence.<br><br>
+                La convention d'honoraires doit donc permettre à la victime de rémunérer un avocat de même niveau de compétence que ses contradicteurs, sans la mettre en difficulté financière.<br><br>
+                C'est pourquoi la convention préalable prévoit généralement deux types d'honoraires : 
+                <ul>
+                    <li>
+                        <strong>Un honoraire initial forfaitaire volontairement modéré : </strong> il s'agit d'une somme qui correspond aux diligences initiales réalisées dans les premières semaines de l'ouverture du dossier.
+                    </li>
+                    <li>
+                        <strong>Un honoraire complémentaire de résultat :</strong> il s'agit d'un pourcentage appliqué aux sommes qui seront octroyées au client, à l'exception des prestations versées par les organismes sociaux. Selon les cas, il pourra être variable pour certains postes de préjudices, ou même limité à certains postes, ou encore dégressif. 
+                    </li>
+                </ul>
+                <br>
+                Dans le cadre de certaines affaires, le client préfère choisir <strong>un honoraire au taux horaire</strong> calculé en fonction des heures travaillées par l’avocat.<br><br>
+                Parmi les autres frais à débourser, les honoraires du médecin-conseil, ou ceux d’un Expert technique sont également à évoquer lors du premier rendez-vous. Ces honoraires ne sont pas perçus par l'avocat et ils sont souvent remboursés intégralement en fin de procédure. Mais ils font partie des sommes à avancer par le client et doivent donc être évoqués d'emblée.<br><br>
+                Si le client bénéficie d'une protection juridique, il conviendra de déclencher l'ensemble des garanties permettant au client d'alléger au maximum le coût de la procédure, qu'elle soit amiable ou judiciaire.
+            </p>
+        </div>   
+    </div>
+  </div>
+</section>
+
+{% endblock %}
