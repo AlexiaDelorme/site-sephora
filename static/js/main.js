@@ -17,7 +17,7 @@ $(function () {
       backgrounds[(current = ++current % backgrounds.length)]
     );
 
-    setTimeout(nextBackground, 6000);
+    setTimeout(nextBackground, 5700);
   }
   setTimeout(nextBackground, 5000);
   mastHead.css("background-image", backgrounds[0]);
